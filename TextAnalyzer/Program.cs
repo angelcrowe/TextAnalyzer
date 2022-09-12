@@ -11,7 +11,7 @@ namespace TextAnalyzer
             Console.WriteLine("Your text is: " + text);
             Console.WriteLine("The number of characters is: " + text.Length);
             Console.WriteLine("In uppercase: " + text.ToUpper());
-            Console.WriteLine("Does it contain th word \"text\"? " + text.Contains("text"));
+            Console.WriteLine("Does it contain the word \"text\"? " + text.Contains("text"));
 
             Console.ReadLine();
         }
