@@ -10,6 +10,7 @@ namespace TextAnalyzer
 
             Console.WriteLine("Your text is: " + text);
             Console.WriteLine("The number of characters is: " + text.Length);
+            Console.WriteLine("In uppercase: " + text.ToUpper());
 
             Console.ReadLine();
         }
